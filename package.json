@@ -1,0 +1,27 @@
+{
+    "name": "silverqoute",
+    "version": "0.1.0",
+    "description": "current price of silver",
+    "main": "silverquote.js",
+    "scripts": {
+        "test": "./test/silverquote.test.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/geisslercom/silverqoute.git"
+    },
+    "keywords": [
+        "silver",
+        "price"
+    ],
+    "author": "Benjamin Geißler (@geisslercom)",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/geisslercom/silverqoute/issues"
+    },
+    "homepage": "https://github.com/geisslercom/silverqoute",
+    "dependencies": {
+        "cheerio": "^0.13.1",
+        "request": "^2.72.0"
+    }
+}
