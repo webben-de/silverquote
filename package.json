@@ -4,7 +4,7 @@
     "description": "current price of silver",
     "main": "silverquote.js",
     "scripts": {
-        "test": "./test/silverquote.test.js"
+        "test": "mocha ./test/silverquote.test.js"
     },
     "repository": {
         "type": "git",
@@ -23,5 +23,9 @@
     "dependencies": {
         "cheerio": "^0.13.1",
         "request": "^2.72.0"
+    },
+    "devDependencies": {
+        "chai": "^3.5.0",
+        "mocha": "^3.0.2"
     }
 }
