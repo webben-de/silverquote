@@ -11,7 +11,7 @@ describe('Silverquote Tests', function() {
                 if (err) {
                     assert.typeOf(err, 'String')
                     assert.equal(price, null)
-                    return done(err);
+                    return done();
                 }
                 assert.typeOf(price, 'object');
                 done();
@@ -22,7 +22,7 @@ describe('Silverquote Tests', function() {
                 if (err) {
                     assert.typeOf(err, 'String')
                     assert.equal(price, null)
-                    return done(err);
+                    return done();
                 }
                 assert.typeOf(price.ounce, 'Number');
                 done();
@@ -33,7 +33,7 @@ describe('Silverquote Tests', function() {
                 if (err) {
                     assert.typeOf(err, 'String')
                     assert.equal(price, null)
-                    return done(err);
+                    return done();
                 }
                 assert.typeOf(price.ounce, 'Number');
                 assert.equal(price.gramm, price.ounce / 31.1034768)
