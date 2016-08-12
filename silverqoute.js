@@ -16,12 +16,12 @@ function silverqoute(callback, err) {
             let regGold = /.*\ ([0-9]{1,4}\.\d{2})\ \ Euro/ig
             let result = regGold.exec(a);
             if (result) {
-                callback({
+                callback(null, {
                     ounce: parseFloat(result[1]),
                     gramm: parseFloat(result[1] / 31.1034768)
                 });
             } else {
-                callback(null)
+                callback("Nothing Found!")
             }
         }
     });
