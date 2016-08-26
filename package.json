@@ -2,7 +2,7 @@
     "name": "silverqoute",
     "version": "0.1.0",
     "description": "current price of silver",
-    "main": "silverquote.js",
+    "main": "./index.js",
     "scripts": {
         "test": "mocha ./test/silverquote.test.js"
     },
