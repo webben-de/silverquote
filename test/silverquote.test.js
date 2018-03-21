@@ -1,4 +1,4 @@
-const silverqoute = require('../silverqoute');
+const silverqoute = require('..');
 const assert = require('chai').assert;
 
 
