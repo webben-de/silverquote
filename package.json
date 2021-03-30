@@ -21,7 +21,7 @@
     },
     "homepage": "https://github.com/geisslercom/silverqoute",
     "dependencies": {
-        "cheerio": "^0.13.1",
+        "cheerio": "^0.14.0",
         "request": "^2.72.0"
     },
     "devDependencies": {
